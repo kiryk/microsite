@@ -4,6 +4,8 @@ Microsite is a minimal personal homepage server that lets you post articles divi
 
 ## Usage
 
+For `microsite` sections are directories and articles are files, both of these are meant to be accessed directly or through FTP.
+
 ### Sections
 
 To add a new section to the website, create a folder in the server's main directory.
