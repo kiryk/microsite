@@ -1,6 +1,6 @@
 # `microsite`
 
-Microsite is a minimal personal homepage server, that lets you post articles divided into sections.
+Microsite is a minimal personal homepage server that lets you post articles divided into sections.
 
 # Usage
 
