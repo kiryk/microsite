@@ -2,9 +2,9 @@
 
 Microsite is a minimal personal homepage server that lets you post articles divided into sections.
 
-# Usage
+## Usage
 
-## Sections
+### Sections
 
 To add a new section to the website, create a folder in the server's main directory.
 
@@ -20,7 +20,7 @@ An example of server's main direcory might look like this:
 	index.html
 	microsite
 
-## Articles
+### Articles
 
 To add an article, create an HTML file in a section directory.
 
@@ -28,13 +28,13 @@ Names of the files are displayed as article titles in section view, and `microsi
 
 The expected format of a file containing an article is HTML encoded in UTF-8 and without the `<body>` tag, but only with the very content of the article. This format corresponts to output of many preprocessing tools like Markdown.
 
-## Styling
+### Styling
 
 The style used by the server by default is just exemplary, to change it - modify the `template.html` file. This file serves both as a template for section pages and article pages.
 
 The CSS styling is embedded in the file, and it's rather intended to stay like that for both efficiency and just simplicity.
 
-# To be done
+## To be done
 
 I want to add some support for modules, like widgets etc., so the program could be easily extended.
 
