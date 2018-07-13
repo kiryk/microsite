@@ -83,9 +83,9 @@ func cutext(title string) string {
 }
 
 func main() {
-	tpl = template.Must(template.New("index.html").
+	tpl = template.Must(template.New("template.html").
 		Funcs(template.FuncMap{"title": strings.Title, "cutext": cutext}).
-		ParseFiles("index.html"))
+		ParseFiles("template.html"))
 	flag.Parse()
 	http.HandleFunc("/", redirToMain)
 	http.HandleFunc("/show/", showIndex)
