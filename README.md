@@ -10,7 +10,7 @@ For `microsite` sections are directories and articles are files, both of these a
 
 To add a new section to the website, create a folder in the server's main directory.
 
-The name of the folder, will be the name of the section, `microsite` will display the names with capitalized first letters of each word in section's name.
+The name of the folder, will be the name of the section, `microsite` will display the names with capitalized first letters of each word.
 
 Articles in each section are sorted by date of _modification_, starting with the newest one.
 
