@@ -19,8 +19,8 @@ An example of server's main direcory might look like this:
 	/articles
 	/projects
 	/about me
-	index.html
 	microsite
+	template.html
 
 ### Articles
 
