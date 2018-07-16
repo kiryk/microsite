@@ -13,9 +13,8 @@ import (
 	"strings"
 )
 
-const mainPage = "articles"
-
-var port = flag.String("port", "80", "port number")
+var port = flag.String("p", "80", "port number")
+var start = flag.String("m", "articles", "section used as main page")
 var tpl *template.Template
 
 type indexPage struct {
