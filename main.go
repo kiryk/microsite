@@ -13,7 +13,7 @@ import (
 	"strings"
 )
 
-const mainPage = ".git"
+const mainPage = "articles"
 
 var port = flag.String("port", "80", "port number")
 var tpl *template.Template
