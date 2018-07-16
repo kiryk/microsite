@@ -13,6 +13,8 @@ import (
 	"strings"
 )
 
+const mainPage = ".git"
+
 var port = flag.String("port", "80", "port number")
 var tpl *template.Template
 
@@ -72,7 +74,7 @@ func showArticle(w http.ResponseWriter, r *http.Request) {
 }
 
 func redirToMain(w http.ResponseWriter, r *http.Request) {
-	http.Redirect(w, r, "/show/articles", http.StatusFound)
+	http.Redirect(w, r, "/show/" + mainPage, http.StatusFound)
 }
 
 func cutext(title string) string {
