@@ -14,7 +14,7 @@ import (
 )
 
 var port = flag.String("p", "80", "port number")
-var start = flag.String("m", "articles", "section used as main page")
+var start = flag.String("m", "articles", "section used as a start page")
 var tpl *template.Template
 
 type indexPage struct {
@@ -73,7 +73,7 @@ func showArticle(w http.ResponseWriter, r *http.Request) {
 }
 
 func redirToMain(w http.ResponseWriter, r *http.Request) {
-	http.Redirect(w, r, "/show/" + mainPage, http.StatusFound)
+	http.Redirect(w, r, "/show/"+*start, http.StatusFound)
 }
 
 func cutext(title string) string {
